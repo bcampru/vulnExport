@@ -1,0 +1,1211 @@
+<img
+	alt="Palo Alto Networks Logo"
+	src="https://www.paloaltonetworks.com/etc/clientlibs/pan/img/logo-blue-medium.png"
+/>
+<h1>Applications and Threats Content Release Notes</h1>
+<p style="color: #777; margin-bottom: 40px; font-size: large">
+	TAGS: Threats Updates
+</p>
+<h2 style="color: #777; font-size: 1.5em; margin-bottom: 40px">Version 8847</h2>
+<div style="white-space: normal">
+	<h1 id="notices">NOTICES&nbsp;</h1>
+	<table style="border: none; width: 100%; min-width: 600px">
+		<tbody>
+			<tr style="height: 30%">
+				<th
+					style="
+						background-color: grey;
+						color: white;
+						text-align: center;
+						height: 18px;
+					"
+				>
+					Importance
+				</th>
+				<th style="background-color: grey; color: white; height: 18px">
+					When
+				</th>
+				<th style="background-color: grey; color: white; height: 18px">
+					What
+				</th>
+				<th style="background-color: grey; color: white; height: 18px">
+					Detail
+				</th>
+			</tr>
+			<tr style="height: 30px">
+				<td
+					style="
+						background-color: #eee;
+						color: #ff6600;
+						padding: 15px;
+						font-size: 12px;
+						width: 15%;
+					"
+				>
+					<span style="color: #ff0000"><strong>High</strong></span>
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding: 15px;
+						font-size: 12px;
+					"
+				>
+					<span style="font-weight: 400">May 21, 2024</span>
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding: 15px;
+						font-size: 12px;
+					"
+				>
+					<span style="font-weight: 400"
+						>We intend to introduce TSIDs for new App-IDs that we
+						will use to identify traffic related to creating,
+						deleting, and sharing files in Microsoft OneDrive
+						Business: </span
+					><strong><em>ms-onedrive-business-create</em></strong
+					><span style="font-weight: 400">, </span
+					><strong><em>ms-onedrive-business-delete</em></strong
+					><span style="font-weight: 400">, and </span
+					><strong><em>ms-onedrive-business-share</em></strong
+					><span style="font-weight: 400"
+						>. These TSIDs will help you prepare for these new
+						App-IDs before we activate them on </span
+					><strong>June 18, 2024</strong
+					><span style="font-weight: 400">.<br /></span
+					><span style="font-weight: 400">NOTE: SSL decryption </span
+					><strong>is </strong
+					><span style="font-weight: 400">required</span>
+					<span style="font-weight: 400"
+						>to identify this traffic.</span
+					>
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding: 15px;
+						font-size: 12px;
+					"
+				>
+					<a
+						href="https://u574567.ct.sendgrid.net/ls/click?upn=u001.ZD6vuql7QKtW30-2Fb61i7ALpEWKxqsFgu5ThaJjsnySXdTiQIEArVJj3liJNhpPtqZ4oAljhrwPiWwWfb0Kf-2FBA83mkNwUcpb55zFmqokdz3qGQ6gk1islb4pBTT8YTlL1UzLmNbPOTO9Rg-2FRm8G2iWYJzYW926UFmoEHqXzh-2BV4-4fv8_6cxO6F3ATQ2-2F-2FrU3ZswaxO96IBB-2FgH9etU8AxGN6pqM2YujI-2FRvAUN3cKUGE-2BCtVp1vtbNNz19yrufcreD-2FJKF8kPyw6-2BFhutOOfD8CZ1LIptZFgGU50T3sHiZoPlEdDBrZaSK96oCxHge54LBounh6MmBl47WL8Ma-2Bkfzyvqq7NWJ-2Bicq-2FfE7VqN8sSGJpkjnUYwfWC73Wz8k-2FVLlU-2FuLhAZPR6qMC2-2BGrsB1I-2F0zc-"
+						><span style="font-weight: 400">Link</span></a
+					>
+				</td>
+			</tr>
+			<tr style="height: 30px">
+				<td
+					style="
+						background-color: #eee;
+						color: #ff6600;
+						padding: 15px;
+						font-size: 12px;
+						width: 15%;
+					"
+				>
+					<span style="color: #ff0000"><strong>High</strong></span>
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding: 15px;
+						font-size: 12px;
+					"
+				>
+					<span style="font-weight: 400">May 21, 2024</span>
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding: 15px;
+						font-size: 12px;
+					"
+				>
+					<span style="font-weight: 400"
+						>We intend to introduce TSIDs for a variety of Google
+						applications (Google AppScript, Google Chat functional
+						apps, Google Docs functional apps, Google Drive
+						functional apps, Google Forms, Google Meet functional
+						apps, and Google Sheets). These TSIDs will help you
+						prepare for these new App-IDs before we activate them on </span
+					><strong>June 18, 2024</strong
+					><span style="font-weight: 400">.<br /></span
+					><span style="font-weight: 400">NOTE: SSL decryption </span
+					><strong>is </strong
+					><span style="font-weight: 400">required</span>
+					<span style="font-weight: 400"
+						>to identify this traffic.</span
+					>
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding: 15px;
+						font-size: 12px;
+					"
+				>
+					<a
+						href="https://u574567.ct.sendgrid.net/ls/click?upn=u001.ZD6vuql7QKtW30-2Fb61i7ALpEWKxqsFgu5ThaJjsnySXdTiQIEArVJj3liJNhpPtqZ4oAljhrwPiWwWfb0Kf-2FBCdyPAOv6nrHtFiv53w6wjrIFK-2FdhMTaG-2Bu6BBvJANnTr6aQjQwfpqkL6-2FK6RIVRUQ--e27i_6cxO6F3ATQ2-2F-2FrU3ZswaxO96IBB-2FgH9etU8AxGN6pqM2YujI-2FRvAUN3cKUGE-2BCtVp1vtbNNz19yrufcreD-2FJKEIK5EHvAhEaWueZaVYbTWpmCO88JBFAQYvR21DCgtNX-2Byqv7mogMUigNm35ioaU7Zi0Zz8FawCCB4PkV9ekJEff0R9blZR1YE48GAcv21lBREu1X3hD-2FnDQM9lXUfSiXmFBvetfCee4QoizdJ7gIfQ-"
+						><span style="font-weight: 400">Link</span></a
+					>
+				</td>
+			</tr>
+			<tr style="height: 30px">
+				<td
+					style="
+						background-color: #eee;
+						color: #ff6600;
+						padding: 15px;
+						font-size: 12px;
+						width: 15%;
+					"
+				>
+					<strong>Medium&nbsp;</strong>
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding: 15px;
+						font-size: 12px;
+					"
+				>
+					<span style="font-weight: 400">May 21, 2024</span>
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding: 15px;
+						font-size: 12px;
+					"
+				>
+					<span style="font-weight: 400"
+						>We intend to expand coverage for the </span
+					><strong><em>github-base </em></strong
+					><span style="font-weight: 400"
+						>App-ID to identify traffic associated with github.io
+						(currently identified generally as </span
+					><strong><em>ssl </em></strong
+					><span style="font-weight: 400">and </span
+					><strong><em>web-browsing</em></strong
+					><span style="font-weight: 400">). </span><br />NOTE: SSL
+					decryption is <strong>not</strong> required to identify this
+					traffic.
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding: 15px;
+						font-size: 12px;
+					"
+				>
+					<a
+						href="https://u574567.ct.sendgrid.net/ls/click?upn=u001.ZD6vuql7QKtW30-2Fb61i7ALpEWKxqsFgu5ThaJjsnySXdTiQIEArVJj3liJNhpPtqY8RDkJfciIOiDqSgqaECrpdBYwf9Wv4kVKNjzUARdQvKrtWEpFiKpwGYOgbROh3Uon-2BHuCKWfFlJJq760ClnTg--NpEN_6cxO6F3ATQ2-2F-2FrU3ZswaxO96IBB-2FgH9etU8AxGN6pqM2YujI-2FRvAUN3cKUGE-2BCtVp1vtbNNz19yrufcreD-2FJKJ8xeYrRr7jV-2B3HuSUCcwavLhSf8OmRXcPJKDFG-2FM0uxVa8H-2F8z73LlYmS6dDDRApF3-2BECdu4uAIRuuZto-2BHiucx6L4gBAhQVnLhhWpO3BooeSaccae5ZVGr-2FE9SnqHKLwoq1QflLriT3-2B1Y1Tvr9Qc-"
+						><span style="font-weight: 400">Link</span></a
+					>
+				</td>
+			</tr>
+			<tr style="height: 30px">
+				<td
+					style="
+						background-color: #eee;
+						color: #ff6600;
+						padding: 15px;
+						font-size: 12px;
+						width: 15%;
+					"
+				>
+					<strong>Medium&nbsp;</strong>
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding: 15px;
+						font-size: 12px;
+					"
+				>
+					<span style="font-weight: 400">May 21, 2024</span>
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding: 15px;
+						font-size: 12px;
+					"
+				>
+					<span style="font-weight: 400"
+						>We intend to expand coverage for the </span
+					><strong><em>sway </em></strong
+					><span style="font-weight: 400"
+						>App-ID to identify traffic associated with Sway
+						(currently identified generally as </span
+					><strong><em>ssl </em></strong
+					><span style="font-weight: 400">and </span
+					><strong><em>web-browsing</em></strong
+					><span style="font-weight: 400">). </span><br />NOTE: SSL
+					decryption <strong>is</strong>&nbsp;required to identify
+					this traffic.
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding: 15px;
+						font-size: 12px;
+					"
+				>
+					<a
+						href="https://u574567.ct.sendgrid.net/ls/click?upn=u001.ZD6vuql7QKtW30-2Fb61i7ALpEWKxqsFgu5ThaJjsnySXdTiQIEArVJj3liJNhpPtqY8RDkJfciIOiDqSgqaECrnTDtu9B5QE-2Byfp6UOyzgPPHykS0qZivT9kQoAPthXaT9j9T_6cxO6F3ATQ2-2F-2FrU3ZswaxO96IBB-2FgH9etU8AxGN6pqM2YujI-2FRvAUN3cKUGE-2BCtVp1vtbNNz19yrufcreD-2FJKEbxjFJenfAIVcndigRWVTD7nWc0Ge0EZjH3Lr6Vs6b014DnxbfJnJVSX3721gvL65lzgfsF2vQCeyZE08GWsVBG4hsr3-2Bm55jkJcLr0IToIoXtawyyiPCIK2VxyixkCLKTFx-2FkBXkMfHL0y-2BDlK2x4-"
+						><span style="font-weight: 400">Link</span></a
+					>
+				</td>
+			</tr>
+			<tr style="height: 30px">
+				<td
+					style="
+						background-color: #eee;
+						color: #ff6600;
+						padding: 15px;
+						font-size: 12px;
+						width: 15%;
+					"
+				>
+					<strong>Medium&nbsp;</strong>
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding: 15px;
+						font-size: 12px;
+					"
+				>
+					<span style="font-weight: 400">May 21, 2024</span>
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding: 15px;
+						font-size: 12px;
+					"
+				>
+					<span style="font-weight: 400"
+						>We intend to expand coverage for the
+						<strong><em>dropbox-editing </em></strong>App-ID to
+						identify traffic associated with editing the name or
+						content of files in Dropbox using the MS Word embedded
+						solution (currently identified generally as
+						<strong><em>sharepoint-online-uploading </em></strong
+						>and <strong><em>web-browsing</em></strong
+						>).<br />NOTE: SSL decryption
+						<strong>is</strong>&nbsp;required to identify this
+						traffic.</span
+					>
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding: 15px;
+						font-size: 12px;
+					"
+				>
+					<span style="font-weight: 400"
+						><a
+							href="https://u574567.ct.sendgrid.net/ls/click?upn=u001.ZD6vuql7QKtW30-2Fb61i7ALpEWKxqsFgu5ThaJjsnySXdTiQIEArVJj3liJNhpPtqY8RDkJfciIOiDqSgqaECrkLOBqFNoniLiL7ggNiPucSUG-2BPt-2F0DW1ca-2BcAyaaQDbN5eSwxu4FbggEMA9X76FTQ--DFo3_6cxO6F3ATQ2-2F-2FrU3ZswaxO96IBB-2FgH9etU8AxGN6pqM2YujI-2FRvAUN3cKUGE-2BCtVp1vtbNNz19yrufcreD-2FJKOhXMEdKgHrb6XT49mUvzS-2FzfY6yzYxVMI4aci-2F0qP91I-2Bqwp-2BLGNRFcFy2RMUewhPcDxXnRXgBAmqy5M9YErUkril81-2Bn4jo31JR9-2F42iXrotYQhIqp-2FLMXIG0g3TxRX0a4fM1QrmfH42rDxdGS0xM-"
+							>Link</a
+						>
+					</span>
+				</td>
+			</tr>
+			<tr style="height: 30px">
+				<td
+					style="
+						background-color: #eee;
+						color: #ff6600;
+						padding: 15px;
+						font-size: 12px;
+						width: 15%;
+					"
+				>
+					<strong>Medium&nbsp;</strong>
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding: 15px;
+						font-size: 12px;
+					"
+				>
+					<span style="font-weight: 400">July 16, 2024</span>
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding: 15px;
+						font-size: 12px;
+					"
+				>
+					<span style="font-weight: 400"
+						>We intend to activate the </span
+					><strong>Marijuana</strong
+					><span style="font-weight: 400">
+						category that we added to the Advanced URL
+						Filtering/PAN-DB category list in content version 8838.
+						<br />NOTE: This new category is visible on all PAN-OS
+						releases but we support it only on PAN-OS 9.1 and later
+						versions.&nbsp;<br /><br /></span
+					><span style="font-weight: 400"
+						>[<strong>ACTION REQUIRED</strong>] If you currently
+						alert on or block marijuana websites using a combination
+						of the <strong>Health and Medicine</strong> and
+						<strong>Abused Drugs</strong> categories, you need to
+						set the action for this new
+						<strong>Marijuana</strong> category to
+						&ldquo;Alert&rdquo; or &ldquo;Block&rdquo; as
+						appropriate before we activate this category. After we
+						activate this new <strong>Marijuana</strong> category,
+						you will no longer be able to use the category
+						combination of <strong>Health and Medicine</strong> with
+						<strong>Abused Drugs</strong> to identify and act on
+						marijuana-related websites.</span
+					>
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding: 15px;
+						font-size: 12px;
+					"
+				>
+					<a
+						href="https://u574567.ct.sendgrid.net/ls/click?upn=u001.ZD6vuql7QKtW30-2Fb61i7ALpEWKxqsFgu5ThaJjsnySU50rmjxnTVRzlHkw2PpOY-2Fssxlc6J1yCfvP8K-2BwLiEjhscT-2FqOXS5wtbgV7-2FLqPWhVQyRRZQXJw905-2FiOpg70FMeF8UdZLQRVpBTPbOIXiEEpDOz5Q-2FMddJ4sP3-2Fq8tYQ-l6wC_6cxO6F3ATQ2-2F-2FrU3ZswaxO96IBB-2FgH9etU8AxGN6pqM2YujI-2FRvAUN3cKUGE-2BCtVp1vtbNNz19yrufcreD-2FJKHpeyCWTTKu4jmbZkWRduPSqsYLNphxKe6Q0hlZmHuZVNJelxe0IS2lW3mIBKWAZYemf1Y5l4D-2F0NdV6xux-2FubSXVncU0pHPxupWWL3igfeaQb3vLUmvIs1lw6wT2ZoWvnNWen-2F2Sl15ho25HEbOw-"
+						><span style="font-weight: 400">Link</span></a
+					>&nbsp;
+				</td>
+			</tr>
+			<tr style="height: 30px">
+				<td
+					style="
+						background-color: #eee;
+						color: #27c279;
+						padding: 15px;
+						font-size: 12px;
+						width: 15%;
+					"
+				>
+					<strong><strong>Informational&nbsp;</strong></strong>
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding: 15px;
+						font-size: 12px;
+					"
+				>
+					<span style="font-weight: 400">May 21, 2024</span>
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding: 15px;
+						font-size: 12px;
+					"
+				>
+					<span style="font-weight: 400"
+						>We intend to release new App-IDs. As always, customers
+						are encouraged to leverage an Application Filter to
+						adopt new App-IDs.</span
+					>
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding: 15px;
+						font-size: 12px;
+					"
+				>
+					<a
+						href="https://u574567.ct.sendgrid.net/ls/click?upn=u001.ZD6vuql7QKtW30-2Fb61i7ALpEWKxqsFgu5ThaJjsnySXdTiQIEArVJj3liJNhpPtqZ4oAljhrwPiWwWfb0Kf-2FBFBOcgoBlLYoEgo5lDsOFEr582jHtTvdhyTxzyHZrNt-2BwuyhsTB4C8w3Vs-2FfpNCGTg--3Dw86m_6cxO6F3ATQ2-2F-2FrU3ZswaxO96IBB-2FgH9etU8AxGN6pqM2YujI-2FRvAUN3cKUGE-2BCtVp1vtbNNz19yrufcreD-2FJKD7ydVTSW-2B3sv3NBwgDgZb6cYsLocEjTB-2BiPGMyHLiE7aFwjyGSkBtVJJcUxkL5Pvxl4iymeFTZiPDpHmjGGSTjW8qU3r9hRVORHumBKI-2Fbivmc0-2BbnDe2BizQjbYAT-2BIWWEVVqlqOETMjPpbouZ80I-"
+						><span style="font-weight: 400">Link</span></a
+					>
+				</td>
+			</tr>
+			<tr style="height: 30px">
+				<td
+					style="
+						background-color: #eee;
+						color: #27c279;
+						padding: 15px;
+						font-size: 12px;
+						width: 15%;
+					"
+				>
+					<strong
+						><strong>Informational<br /></strong
+					></strong>
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding: 15px;
+						font-size: 12px;
+					"
+				>
+					<span style="font-weight: 400">May 21, 2024</span>
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding: 15px;
+						font-size: 12px;
+					"
+				>
+					<span style="font-weight: 400"
+						>We intend to release new ICS, IoT, and OT placeholder
+						App-IDs (</span
+					><strong
+						><em
+							>amx-icsp, simatic-logon-encrypted-login</em
+						></strong
+					><span style="font-weight: 400">, and </span
+					><strong><em>simatic-logon-unencrypted-login</em></strong
+					><span style="font-weight: 400"
+						>). We then intend to activate (add signatures for)
+						these new App-IDs in the new App-IDs Applications and
+						Threats content update scheduled for </span
+					><strong>June 18, 2024</strong
+					><span style="font-weight: 400">.</span>
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding: 15px;
+						font-size: 12px;
+					"
+				>
+					<a
+						href="https://u574567.ct.sendgrid.net/ls/click?upn=u001.ZD6vuql7QKtW30-2Fb61i7ALpEWKxqsFgu5ThaJjsnySXdTiQIEArVJj3liJNhpPtqvPbaS9m87qsgjyoyqM8qK3CAbGEl3mG-2B0mBWnIkojlXwHXMRD7jtg2UOVgXb360DhQU6oUyAYD4iay6p7ZIua9AW5j-2BkwCt-2FLFWA1x1arg4cWEU3CfoTsvXDoYe80Zz6FaPY_6cxO6F3ATQ2-2F-2FrU3ZswaxO96IBB-2FgH9etU8AxGN6pqM2YujI-2FRvAUN3cKUGE-2BCtVp1vtbNNz19yrufcreD-2FJKEG3ahEYxk-2FTaDqt4kVpMEIJkQh9syutNSz2dPo00u0W1XYHnz0vNNkxWd7e-2BQ6eR7H2imCzBYwt5Yr1-2BBcvpv7zraHIS7SGkRm4q3ekqwnAL3t5S2JTYTcxY5haRX0yzv8sReCauia00gTi4JDbI6Q-"
+						><span style="font-weight: 400">Link</span></a
+					>
+				</td>
+			</tr>
+			<tr style="height: 30px">
+				<td
+					style="
+						background-color: #eee;
+						color: #27c279;
+						padding: 15px;
+						font-size: 12px;
+						width: 15%;
+					"
+				>
+					<strong><strong>Informational&nbsp;</strong></strong>
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding: 15px;
+						font-size: 12px;
+					"
+				>
+					<span style="font-weight: 400">May 21, 2024</span>
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding: 15px;
+						font-size: 12px;
+					"
+				>
+					<span style="font-weight: 400"
+						>We intend to activate (add signatures for) the
+						following ICS, IoT, and OT App-IDs: </span
+					><strong><em>mitsubishi-hmi</em></strong
+					><span style="font-weight: 400">, </span
+					><strong><em>simatic-logon</em></strong
+					><span style="font-weight: 400">, and the </span
+					><strong><em>honeywell-softmaster</em></strong
+					><span style="font-weight: 400">
+						functional App-ID (all introduced as placeholder App-IDs
+						in content version 8837)</span
+					><span style="font-weight: 400">.</span>
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding: 15px;
+						font-size: 12px;
+					"
+				>
+					<a
+						href="https://u574567.ct.sendgrid.net/ls/click?upn=u001.ZD6vuql7QKtW30-2Fb61i7ALpEWKxqsFgu5ThaJjsnySXdTiQIEArVJj3liJNhpPtqvPbaS9m87qsgjyoyqM8qK3CAbGEl3mG-2B0mBWnIkojlW10lts8L0-2Bks-2BIhVsVV7pJ9OD19tNvP9tw-2BcBXlcrXZIEdcDO0wzjcGW5XG4bcU9Uvg4UJDhdY1mRinaqo-2BZLw_QeC_6cxO6F3ATQ2-2F-2FrU3ZswaxO96IBB-2FgH9etU8AxGN6pqM2YujI-2FRvAUN3cKUGE-2BCtVp1vtbNNz19yrufcreD-2FJKLOjLhiQ2CJp1iOoxUEYBKnwBmZR082RTdBFE9PjtlyhllZ0t5ueRmC9dy-2FYorodZiavOznhJiMeEh0p1mexRH8C0tx6Xi6AbxqfFwemEcQYzNkQEpRQySv6ftmi4ruzGs2HTCCW87gn6orL1sRpwKI-"
+						><span style="font-weight: 400">Link</span></a
+					>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<div>
+	<div>
+		<h4><span style="color: #227aa2; font-size: 18pt">Content</span></h4>
+		<p></p>
+		<li class="list">
+			<a href="#new-vulnerability-signatures" style="font-weight: 400"
+				>New Vulnerability Signatures (6)</a
+			>
+		</li>
+		<p></p>
+		<br />
+	</div>
+	<style>
+		.list {
+			list-style-type: none;
+		}
+	</style>
+</div>
+<div style="margin-bottom: 2.5em">
+	<h3 style="color: #227aa2; font-size: 1.2em">Signatures Updates</h3>
+	<h3
+		id="new-vulnerability-signatures"
+		style="color: #227aa2; font-size: 1.2em"
+	>
+		New Vulnerability Signatures (6)
+	</h3>
+	<table style="border: none; width: 100%; min-width: 600px">
+		<tbody>
+			<tr>
+				<th
+					style="
+						background-color: #999;
+						color: #fff;
+						font-size: 12px;
+						padding: 2px;
+						width: 71px;
+					"
+				>
+					Severity
+				</th>
+				<th
+					style="
+						background-color: #999;
+						color: #fff;
+						font-size: 12px;
+						padding: 2px;
+						width: 71px;
+					"
+				>
+					ID
+				</th>
+				<th
+					style="
+						background-color: #999;
+						color: #fff;
+						font-size: 12px;
+						padding: 2px;
+					"
+				>
+					Attack Name
+				</th>
+				<th
+					style="
+						background-color: #999;
+						color: #fff;
+						font-size: 12px;
+						padding: 2px;
+						width: 105px;
+					"
+				>
+					CVE ID
+				</th>
+				<th
+					style="
+						width: 140px;
+						background-color: #999;
+						color: #fff;
+						font-size: 12px;
+						padding: 2px;
+					"
+				>
+					Category
+				</th>
+				<th
+					style="
+						width: 85px;
+						background-color: #999;
+						color: #fff;
+						font-size: 12px;
+						padding: 2px;
+					"
+				>
+					Default Action
+				</th>
+				<th
+					style="
+						width: 100px;
+						background-color: #999;
+						color: #fff;
+						font-size: 12px;
+						padding: 2px;
+					"
+				>
+					Minimum PAN-OS Version
+				</th>
+				<th
+					style="
+						width: 100px;
+						background-color: #999;
+						color: #fff;
+						font-size: 12px;
+						padding: 2px;
+					"
+				>
+					Maximum PAN-OS Version
+				</th>
+			</tr>
+			<tr>
+				<td
+					style="
+						text-align: center;
+						background-color: #fe9b29;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					high
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					95207
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					Delta Industrial Automation DIAEnergie
+					GetDIAEusListParameters SQL Injection Vulnerability
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					CVE-2024-25574
+				</td>
+				<td
+					style="
+						width: 140px;
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					sql-injection
+				</td>
+				<td
+					style="
+						width: 85px;
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					reset-server
+				</td>
+				<td
+					style="
+						width: 100px;
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					8.1.0
+				</td>
+				<td
+					style="
+						width: 100px;
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				></td>
+			</tr>
+			<tr>
+				<td
+					style="
+						text-align: center;
+						background-color: #fe9b29;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					high
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					95208
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					Delta Industrial Automation DIAEnergie
+					GetDIAEunListParameters SQL Injection Vulnerability
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					<a href="CVE-2024-4671">CVE-2024-23494</a>
+				</td>
+				<td
+					style="
+						width: 140px;
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					sql-injection
+				</td>
+				<td
+					style="
+						width: 85px;
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					reset-server
+				</td>
+				<td
+					style="
+						width: 100px;
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					8.1.0
+				</td>
+				<td
+					style="
+						width: 100px;
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				></td>
+			</tr>
+			<tr>
+				<td
+					style="
+						text-align: center;
+						background-color: #fe9b29;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					high
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					95209
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					Delta Industrial Automation DIAEnergie
+					GetDIAEslogListParameters SQL Injection Vulnerability
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					CVE-2024-23975
+				</td>
+				<td
+					style="
+						width: 140px;
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					sql-injection
+				</td>
+				<td
+					style="
+						width: 85px;
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					reset-server
+				</td>
+				<td
+					style="
+						width: 100px;
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					8.1.0
+				</td>
+				<td
+					style="
+						width: 100px;
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				></td>
+			</tr>
+			<tr>
+				<td
+					style="
+						text-align: center;
+						background-color: #fe9b29;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					high
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					95210
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					Delta Industrial Automation DIAEnergie
+					GetDIAEastListParameters SQL Injection Vulnerability
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					CVE-2024-28040
+				</td>
+				<td
+					style="
+						width: 140px;
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					sql-injection
+				</td>
+				<td
+					style="
+						width: 85px;
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					reset-server
+				</td>
+				<td
+					style="
+						width: 100px;
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					8.1.0
+				</td>
+				<td
+					style="
+						width: 100px;
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				></td>
+			</tr>
+			<tr>
+				<td
+					style="
+						text-align: center;
+						background-color: #fe9b29;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					high
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					95222
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					F5 BIG-IP Next Central Manager OData Injection Vulnerability
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					CVE-2024-21793
+				</td>
+				<td
+					style="
+						width: 140px;
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					info-leak
+				</td>
+				<td
+					style="
+						width: 85px;
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					reset-server
+				</td>
+				<td
+					style="
+						width: 100px;
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					8.1.0
+				</td>
+				<td
+					style="
+						width: 100px;
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				></td>
+			</tr>
+			<tr>
+				<td
+					style="
+						text-align: center;
+						background-color: #fe9b29;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					high
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					95223
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					F5 BIG-IP Next Central Manager SQL Injection Vulnerability
+				</td>
+				<td
+					style="
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					CVE-2024-26026
+				</td>
+				<td
+					style="
+						width: 140px;
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					sql-injection
+				</td>
+				<td
+					style="
+						width: 85px;
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					reset-server
+				</td>
+				<td
+					style="
+						width: 100px;
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				>
+					8.1.0
+				</td>
+				<td
+					style="
+						width: 100px;
+						background-color: #eee;
+						padding-right: 5px;
+						padding-left: 5px;
+						font-size: 12px;
+					"
+				></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<br /><br />
+<div style="font-family: arial; font-size: 9px; color: #202020">
+	This email was sent to you because you are a registered user of the Palo
+	Alto Networks Support Portal. If you no longer wish to receive these
+	updates, please unsubscribe by updating your profile on the
+	<a
+		href="https://u574567.ct.sendgrid.net/ls/click?upn=u001.-2BqNyPG2UGHTyZE9Em1KZUmraXELv-2FV4jVG3weSorHwSGxqZo-2F0ibnHtY5WKldJSvZQ-m_6cxO6F3ATQ2-2F-2FrU3ZswaxO96IBB-2FgH9etU8AxGN6pqM2YujI-2FRvAUN3cKUGE-2BCtVp1vtbNNz19yrufcreD-2FJKDbr6QD8qWY-2BuLxD69SuXfHKYL3BVWxcQYWuv-2FvTO8kP05hdgj7Ij8d9JhP64sV167ZOctuKjvodqUy1PYG-2FBhXdBJvhwRPMUd-2B5qc-2FoIdXP0mFGxfdMmHSr5-2F7csUZ5bF6RVS8A2tlCGhGK4EmvE-"
+		>Support Portal</a
+	>.
+</div>
+<img
+	src="https://u574567.ct.sendgrid.net/wf/open?upn=u001.jJnz5p99r2nnT9yUA1Ssc0WpKQ-2BGzeRe5IyD0SzCuw5u-2FCPVALVYLGjNR-2FIEuCrsZcsrnKF2-2BsBHrYKXuhY-2ByRHcfgmXA0UnnPBeJ95aTS5tN8QSGe7uPm7gLgkOM3Gqe5Ry-2BmRrKT7X7-2F4-2BDEtbp-2BRUzzbg-2FjXMU7KyC2dZvlbvBQ4xF-2FapDKAsLd9LgLmCCzyBIThPjzpzGzgAW4F-2BNyiebeJu5iLthch6DUCQC-2FI-"
+	alt=""
+	width="1"
+	height="1"
+	border="0"
+	style="
+		height: 1px !important;
+		width: 1px !important;
+		border-width: 0 !important;
+		margin-top: 0 !important;
+		margin-bottom: 0 !important;
+		margin-right: 0 !important;
+		margin-left: 0 !important;
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
+		padding-right: 0 !important;
+		padding-left: 0 !important;
+	"
+/>

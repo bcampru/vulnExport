@@ -1,0 +1,5 @@
+# Run the script every day at 1 AM
+0 13 * * * /usr/local/bin/python /app/src/main.py --report-type 0day >> /var/log/cron.log 2>&1
+
+# Run the script every Friday at midnight
+0 10 * * 1 /usr/local/bin/python /app/src/main.py --report-type weekly >> /var/log/cron.log 2>&1

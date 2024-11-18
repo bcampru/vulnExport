@@ -1,0 +1,8 @@
+beautifulsoup4 
+selenium 
+webdriver-manager
+feedparser
+openpyxl
+pandas
+Jinja2
+selenium_stealth

@@ -1,0 +1,363 @@
+<div style="font-family: 'Montserrat', sans-serif">
+	<div style="position: relative">
+		<img
+			src="https://www.devoteam.com/wp-content/themes/lsac-devoteam/assets/images/logo-devoteam.svg"
+			style="height: 65px; position: absolute; top: 0; left: 0"
+			alt=""
+		/>
+	</div>
+
+	<h1>DevoTeam {{title_customization}} Vulnerability Report</h1>
+	<p>Dear client,</p>
+	<p>
+		As part of our unwavering commitment to your cybersecurity, we are
+		pleased to present {{time_customization}}'s Vulnerability Report.
+		Staying ahead of potential threats is crucial in today's digital
+		landscape, and we are here to ensure your business remains secure and
+		resilient.
+	</p>
+	<h4><span style="color: #227aa2; font-size: 18pt">Report Details</span></h4>
+	<p>
+		This report is from
+		<span style="font-weight: bold">{{fromDate}}</span> to
+		<span style="font-weight: bold">{{toDate}}</span>.
+		<p>{{noFinding}}</p>
+	</p>
+
+	<div style="margin-bottom: 2.5em">
+		<h4><span style="color: #227aa2; font-size: 18pt">Content</span></h4>
+		<p>
+			Find down below the new vulnerabilities from {{time_customization}}
+			provided by Devoteam CTI department:
+		</p>
+		<table style="border: none; width: 100%; min-width: 600px">
+			<tbody>
+				<tr>
+					<th
+						style="
+							background-color: #999;
+							color: #fff;
+							font-size: 12px;
+							padding: 2px;
+							width: 40px;
+						"
+					>
+						Severity
+					</th>
+					<th
+						style="
+							background-color: #999;
+							color: #fff;
+							font-size: 12px;
+							padding: 2px;
+							width: 61px;
+						"
+					>
+						Product
+					</th>
+
+					<th
+						style="
+							background-color: #999;
+							color: #fff;
+							font-size: 12px;
+							padding: 2px;
+							width: 100px;
+						"
+					>
+						{{columnName}}
+					</th>
+					<th
+						style="
+							background-color: #999;
+							color: #fff;
+							font-size: 12px;
+							padding: 2px;
+							width: 60px;
+						"
+					>
+						CVE ID
+					</th>
+					<th
+						style="
+							background-color: #999;
+							color: #fff;
+							font-size: 12px;
+							padding: 2px;
+						"
+					>
+						Short Description
+					</th>
+					<th
+						style="
+							background-color: #999;
+							color: #fff;
+							font-size: 12px;
+							padding: 2px;
+						"
+					>
+						Remediation
+					</th>
+				</tr>
+				{% for cve in cves %}
+				<tr>
+					<td
+						style="
+							text-align: center;
+							background-color: {{cve.color}};
+							padding-right: 5px;
+							padding-left: 5px;
+							font-size: 12px;
+						"
+					>
+						{{cve.severity}}
+					</td>
+					<td
+						style="
+							background-color: #eee;
+							padding-right: 5px;
+							padding-left: 5px;
+							font-size: 12px;
+						"
+					>
+						{{cve.vendorProject}} {{cve.product}}
+					</td>
+					<td
+						style="
+							background-color: #eee;
+							padding-right: 5px;
+							padding-left: 5px;
+							font-size: 12px;
+						"
+					>
+						{{cve.vulnerabilityName}}
+					</td>
+					<td
+						style="
+							background-color: #eee;
+							padding-right: 5px;
+							padding-left: 5px;
+							font-size: 12px;
+						"
+					>
+						<a href="{{cve.url}}">{{cve.cveID}}</a>
+					</td>
+					<td
+						style="
+							width: 140px;
+							background-color: #eee;
+							padding-right: 5px;
+							padding-left: 5px;
+							font-size: 12px;
+						"
+					>
+						{{cve.shortDescription}}
+					</td>
+					<td
+						style="
+							width: 85px;
+							background-color: #eee;
+							padding-right: 5px;
+							padding-left: 5px;
+							font-size: 12px;
+						"
+					>
+						{{cve.requiredAction}}
+					</td>
+				</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+	</div>
+
+	<h4>
+		<span style="color: #227aa2; font-size: 18pt"
+			>Support and Assistance</span
+		>
+	</h4>
+	<p>
+		Should you have any questions or require assistance in implementing the
+		suggested actions, our support team is available to help. Your security
+		is our top priority, and we are here to support you every step of the
+		way.
+	</p>
+	<p>
+		Thank you for trusting us with your cybersecurity needs. Together, we
+		can build a more secure future for your business.
+	</p>
+	<p>Stay vigilant, stay secure.</p>
+	<p>Regards,</p>
+	<br />
+
+	<table>
+		<tbody>
+			<tr
+				style="
+					color: rgb(0, 0, 0);
+					font-family: Verdana, sans-serif;
+					font-size: medium;
+				"
+			>
+				<td
+					colspan="2"
+					style="
+						min-width: 350px;
+						max-width: 500px;
+						font-weight: bold;
+						font-stretch: normal;
+						font-size: 13px;
+						line-height: normal;
+						padding: 0px 0px 6px 0px;
+						color: rgb(248, 72, 94);
+					"
+				>
+					CTI Team
+				</td>
+			</tr>
+			<tr
+				style="
+					color: rgb(0, 0, 0);
+					font-family: Verdana, sans-serif;
+					font-size: medium;
+				"
+			>
+				<td
+					colspan="2"
+					style="
+						min-width: 350px;
+						max-width: 500px;
+						font-stretch: normal;
+						font-size: 13px;
+						line-height: normal;
+						padding: 6px 0px 9px 0px;
+						color: rgb(83, 86, 90);
+					"
+				>
+					Devoteam Cyber Trust
+				</td>
+			</tr>
+			<tr
+				style="
+					color: rgb(0, 0, 0);
+					font-family: Verdana, sans-serif;
+					font-size: medium;
+				"
+			>
+				<td
+					colspan="2"
+					style="
+						min-width: 350px;
+						max-width: 500px;
+						font-stretch: normal;
+						font-size: 13px;
+						line-height: normal;
+						padding: 0px 0px 0px 0px;
+					"
+				>
+					<a
+						href="mailto:biel.camprubi@devoteam.com"
+						style="color: rgb(248, 72, 94)"
+						target="_blank"
+						>es.soc@devoteam.com</a
+					>
+				</td>
+			</tr>
+			<tr
+				style="
+					color: rgb(0, 0, 0);
+					font-family: Verdana, sans-serif;
+					font-size: medium;
+				"
+			>
+				<td
+					style="
+						border-collapse: collapse;
+						padding: 20px 0px 0px;
+						border: 0px;
+						max-height: 74px;
+						max-width: 475px;
+						vertical-align: top;
+					"
+				>
+					<img
+						src="https://storage.googleapis.com/signature-generator/imagesv2/Infinite_email_signature_2021_Cybersecurity_box.gif"
+						alt="Infinite Circles"
+						style="
+							border: none;
+							border-collapse: collapse;
+							margin: 0px;
+							padding: 0px;
+							max-width: 475px;
+						"
+					/>
+				</td>
+				<td
+					style="
+						font-family: Verdana;
+						border-collapse: collapse;
+						padding: 20px 0px 0px;
+						border: 0px;
+						max-height: 74px;
+						height: 74px;
+						width: 24px;
+						vertical-align: top;
+					"
+				>
+					<div
+						style="
+							min-height: 25px;
+							max-height: 25px;
+							margin: 0px;
+							padding: 0px;
+						"
+					>
+						<a
+							href="https://www.linkedin.com/company/devoteam"
+							target="_blank"
+							><img
+								src="https://storage.googleapis.com/signature-generator/images/signature_linkedin.png"
+								alt="Devoteam at Linkedin"
+								style="
+									border-spacing: 0px;
+									border: 0px;
+									border-collapse: collapse;
+									width: 24px;
+									height: 24px;
+								"
+						/></a>
+					</div>
+					<div
+						style="
+							min-height: 25px;
+							max-height: 25px;
+							margin: 0px;
+							padding: 0px;
+						"
+					>
+						<a href="https://twitter.com/devoteam" target="_blank"
+							><img
+								src="https://storage.googleapis.com/signature-generator/images/signature_twitter.png"
+								alt="Devoteam at Twitter"
+								style="
+									border-spacing: 0px;
+									border: 0px;
+									border-collapse: collapse;
+									width: 24px;
+									height: 24px;
+								"
+						/></a>
+					</div>
+				</td>
+			</tr>
+			<tr
+				style="
+					color: rgb(0, 0, 0);
+					font-family: Verdana, sans-serif;
+					font-size: medium;
+				"
+			>
+				<td colspan="2"></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
