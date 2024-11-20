@@ -169,7 +169,7 @@ if __name__ == '__main__':
                       "Imanol.Garrido@aegps.com",
                       "mikel.garcia@venanpri.com",
                       "antonio.bernabe@paack.co",
-                      "nicolas.francia@paack.co", "ivanzomenyo@bit2me.com", "damianrivera@bit2me.com"
+                      "nicolas.francia@paack.co", "ivanzomenyo@bit2me.com", "damianrivera@bit2me.com", "mbfierro@konecta-group.com"
                       ]
 
     # with open('output.html', 'r') as f:
