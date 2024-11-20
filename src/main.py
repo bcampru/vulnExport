@@ -153,10 +153,24 @@ if __name__ == '__main__':
     file = excel_buffer.read()
 
     from_email = 'es.soc.support@devoteam.com'
-    to_day_emails = ['biel.camprubi@devoteam.com',
-                     'eric.guerra@devoteam.com', 'alejandro.gonzalez1@devoteam.com']
-    to_week_emails = ['es.soc.l2@devoteam.com',
-                      'alejandro.gonzalez1@devoteam.com']
+    to_day_emails = ['eric.guerra@devoteam.com',
+                     'alejandro.gonzalez1@devoteam.com']
+    to_week_emails = ['es.soc.l2@devoteam.com', 'biel.camprubi@devoteam.com',
+                      'alejandro.gonzalez1@devoteam.com', "dpuentep@cirsa.com",
+                      "aesalgado@covisian.com",
+                      "pedro.moral@konecta-group.com",
+                      "sandra.medina@konecta-group.com",
+                      "daniel.navas@konecta-group.com",
+                      "ismael.rossell@roche.com",
+                      "bernat.hosta@roche.com",
+                      "ramiro.maicas@normon.com",
+                      "jvicente@grupobc.com",
+                      "darino@grupobc.com",
+                      "Imanol.Garrido@aegps.com",
+                      "mikel.garcia@venanpri.com",
+                      "antonio.bernabe@paack.co",
+                      "nicolas.francia@paack.co", "ivanzomenyo@bit2me.com", "damianrivera@bit2me.com"
+                      ]
 
     # with open('output.html', 'r') as f:
     #     output = f.read()
