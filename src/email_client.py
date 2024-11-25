@@ -15,7 +15,6 @@ class EmailSender:
     def _create_message(self, from_email, to_emails, subject, body, body_type='plain'):
         msg = MIMEMultipart()
         msg['From'] = from_email
-        msg['To'] = ", ".join(to_emails)
         msg['Subject'] = subject
         msg.attach(MIMEText(body, body_type))
         return msg

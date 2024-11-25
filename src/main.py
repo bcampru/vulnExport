@@ -154,7 +154,7 @@ if __name__ == '__main__':
 
     from_email = 'es.soc.support@devoteam.com'
     to_day_emails = ['eric.guerra@devoteam.com',
-                     'alejandro.gonzalez1@devoteam.com']
+                     'biel.camprubi@devoteam.com', 'alejandro.gonzalez1@devoteam.com']
     to_week_emails = ['es.soc.l2@devoteam.com', 'biel.camprubi@devoteam.com',
                       'alejandro.gonzalez1@devoteam.com', "dpuentep@cirsa.com",
                       "aesalgado@covisian.com",
